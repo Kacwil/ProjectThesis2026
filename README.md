@@ -1,19 +1,15 @@
-Project-Thesis 2026
+TTK4550 Specialization Project 2026
 
-This is the code for the project-thesis "Residual Multipath Correction using Lightweight
+This is the code for the Specialization Project "Residual Multipath Correction using Lightweight
 Convolutional Neural Networks".
 
-Files:
+How to run:
 
-Generation of synthetic datasets:
-synth_data.py
-synth_data_RT.py
-
-Processing of real-life data:
-data_processing.py
-
-Running and validating the CNN correction models:
-neural_networks/main.py
+1. Install requirements.txt
+2. Run python synth_data.py / synth_data_RT.py to generate synthetic training data
+3. Run python data_processing.py to process experimental data
+4. Run python classical_doa.py to create MUSIC DOA estimates
+6. Run python neural_networks/main.py to run the Neural Correction Models for correcting the MUSIC DOA estimates.
 
 
 
